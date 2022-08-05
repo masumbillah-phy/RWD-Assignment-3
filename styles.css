@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* google fonts*/
+/* Roboto Mono */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=News+Cycle&family=Oswald:wght@700&family=Passion+One&family=Poppins:wght@700&family=Roboto+Mono:wght@100&family=Space+Mono&family=Suez+One&display=swap');
+
+/* Exo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Exo+2:wght@100&family=Mukta:wght@200&family=News+Cycle&family=Oswald:wght@700&family=Passion+One&family=Poppins:wght@700&family=Space+Mono&family=Suez+One&display=swap');
+
+body{
+   
+    background-color: #F5F5F5;
+}
+main{
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+/* Header Start */
+
+/* Navbar Start */
+
+.navbar{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    
+    justify-content: space-between;
+    
+}
+.logo{
+    margin: 18px 0;
+    padding-left: 125px;
+}
+.menu{
+   margin-right: 125px;
+}
+#team{
+    color: green;
+}
+.menu a{
+    margin: 20px;
+    text-decoration: none;
+}
+/* Navbar End */
+.banner{
+    position: relative;
+}
+.banner-img{
+    width: 100%;
+  
+    margin-top: 0;
+}
+.banner-img img{
+    width: 100%;
+    background-size: cover;
+}
+.content{
+    font-family: 'Roboto Mono', monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 50px;
+    transform: translate(-50%, -50%); 
+}
+/* Header section End */
+
+/* Main Section start */
+.our-mission{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    
+}
+.half-width{
+    width: 50%;
+    margin-left:5%;
+    margin-right: 5%;
+    
+}
+.half-width img{
+    width: 100%;
+    border-radius: 5px;
+}
+.half-width h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.half-width h3{
+    border-bottom: 2px solid green;
+    width: 25%;
+    margin-bottom: 20px;
+}
+.half-width p{
+    font-size: 20px;
+    text-align: justify;
+    word-spacing: 2px;
+}
+/* Main Section End */
+
+/* Footer Start */
+footer{
+    color:#FFFFFF;
+    width: 100%;
+    height:503px;
+    background-color: #11175E;
+}
+.footer-underline{
+    border-bottom: 2px solid green;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+footer h6{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+
+.footer-content{
+    display: flex;
+    margin-bottom: 45px;
+}
+.one-third{
+   margin-left: 5%;
+   margin:  0 auto;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+}
+.contact-us a{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+.one-third a{
+    padding-top: 20px;
+}
+.one-side-border{
+    border-bottom: 1px solid #373D8A;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-bottom{
+    display: flex;
+}
+.footer-bottom small{
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.fa-solid{
+    font-size: 30px;
+    margin-right: 15px;
+}
+#powered-by{
+    text-align: right;
+    margin-right: 10%;
+}
+/* Footer End */
+
+
+
+
+
+
+
+
+
+
+
+
+
